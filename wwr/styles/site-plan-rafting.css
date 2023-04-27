@@ -3,16 +3,18 @@
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #1ac017   ;
+  --primary-color: #c017a7   ;
   --secondary-color: #E7C24F ;
   --accent1-color: #A42212;
-  --accent2-color: white;
+  --accent2-color: rgb(255, 255, 255);
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon";
+  --heading-font: 'Recursive', sans-serif;
   --paragraph-font: Lato, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
